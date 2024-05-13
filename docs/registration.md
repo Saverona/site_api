@@ -38,7 +38,7 @@ User registration involves providing necessary information such as the phone num
 >       The phone number needed for registration.
 
 - **password**: string (*Required*)
-  - The password required for registration. See password creation rule [here](link_to_rule).
+  - The password required for registration. See password creation rule [here].
 
 - **analyticsCallback**: string 
   - Optional parameter for transmitting analytics data

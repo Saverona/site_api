@@ -27,7 +27,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Registration', link: '/registration' },
-              { text: 'Confirm Phone Number', link: '/confirm-phone-number' },
+              { text: 'Confirm Phone Number', link: 'confirm-phone-number' },
               { text: 'Resend Code', link: '/resend-code' },
               { text: 'Add Email', link: '/add-email' },
               { text: 'Confirm Email', link: '/confirm-email' }
