@@ -5,13 +5,13 @@ layout: home
 hero:
   name: "Vault API"
   text: "You'll find comprehensive guides and documentation to help you start working with Vault as quickly as possible, as well as support if you get stuck"
-  tagline: My great project tagline
+  tagline: Let's jump right in!
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: API Reference
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Guides
       link: /api-examples
 
 features:
