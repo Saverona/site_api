@@ -15,12 +15,14 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'API Reference', link: '/introduction' },
+          { text: 'Guides', link: '/get' }
         ]
       }
     ],
-
+    search: {
+      provider: 'local'
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
