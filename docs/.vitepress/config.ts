@@ -8,23 +8,48 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'FAQ', link: '/FAQ' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'General information',
         items: [
           { text: 'API Reference', link: '/introduction' },
-          { text: 'Guides', link: '/get' }
+          { text: 'Sandbox', link: '/sandbox' }
         ]
-      }
+      },
+      {
+        text: 'API Reference',
+        items: [
+          {
+            text: 'Signup', link: '/signup',
+            collapsed: true,
+            items: [
+              { text: 'Registration', link: '/registration' },
+              { text: 'Confirm Phone Number', link: 'confirm-phone-number' },
+              { text: 'Resend Code', link: '/resend-code' },
+              { text: 'Add Email', link: '/add-email' },
+              { text: 'Confirm Email', link: '/confirm-email' }
+            ]
+          },
+          {
+            text: 'Authorization', link: '/authorization',
+            collapsed: true,
+            items: [
+              { text: 'Signin', link: '/signin' },
+              { text: 'Signout', link: '/signout' } 
+            ]
+          }
+        ]
+      },
     ],
+      
     search: {
       provider: 'local'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Saverona/site_api' }
     ]
   }
 })
